@@ -27,12 +27,13 @@ li{
     text-transform: uppercase;
     cursor: pointer;
 }
-li{
-    list-style: none;
+
+a{
     text-decoration: none;
+    color: white;
 }
-li:hover{
-    color: blue;
+a:hover{
+    color: green;
 }
 
 .navbar{
@@ -65,7 +66,6 @@ li:hover{
 }
 .boxinfo{
     background-color: #d6d5d5;
-    width: 100%;
     height: 175px;
     border-bottom: 3px solid rgb(2, 90, 17);
     padding-top: 20px;
@@ -78,6 +78,9 @@ li:hover{
 }
 .card_box h2{
     color: rgb(2, 90, 17)
+}
+.card_box p{
+    text-align: justify;
 }
 .box{
     overflow: auto;

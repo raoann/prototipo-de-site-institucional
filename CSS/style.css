@@ -20,14 +20,19 @@ body{
     text-align: center;
 }
 
-li{
+li {
     float: left;
     margin-left: 10px;
     text-transform: uppercase;
     cursor: pointer;
 }
-li:hover{
-    color: blue;
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: green;
 }
 
 .navbar{
